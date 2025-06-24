@@ -1,0 +1,55 @@
+/* Estilos base */
+body{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+/* Estilo de cabeçalho */
+header{
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: black solid;
+}
+/* Estilos de seção */
+section{
+    margin: 20px;
+}
+/* Estilos de rodapé */
+footer{
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    color: blue;
+    font-size: 24px;
+}
+p{
+    color: #708090;
+    font-size: 16px;
+}
+h2{
+    color: black;
+}
+.highlight{
+    background-color: orange;
+    color: white;
+    padding: 4px;
+}
+a[href^="mailto:"] {
+    color: orange;
+}
+a:hover {
+    color: white;
+}
+p::first-line {
+    font-weight: bold;
+}
+header + main {
+    border-top: 1px solid gray;
+}
+h1{
+    color: green !important;
+    
+}
